@@ -1,0 +1,3 @@
+A shell for testing [Eager](https://eager.io) apps.
+
+Details to come...
