@@ -16,4 +16,5 @@ How to use this:
 
   Make sure to change `https://localhost/path/to/app-javascript-file.js` to the local JS file you want to test. Note, the file must be served with SSL or you’ll need to disable the insecure content browser warning. [Vee](https://github.com/HubSpot/vee) can help with this.
 
+1. Use `window.EAGER_APP_TEST_OPTIONS` inside your JS file to access the install page options JSON the user will fill out.
 1. Finally, visit the install page in an unauthed browser session and set the preview URL to the site you want to test. You can also open the preview in a separate window.
